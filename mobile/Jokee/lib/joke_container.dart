@@ -56,6 +56,7 @@ class _JokeContainerState extends State<JokeContainer> {
                     width: MediaQuery.of(context).size.width,
                     child: Center(
                       child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Container(
                             height: MediaQuery.of(context).size.height * 0.10,
@@ -75,7 +76,7 @@ class _JokeContainerState extends State<JokeContainer> {
 Come back another day!''',
                               style: TextStyle(
                                 color: Colors.black,
-                                fontSize: 16,
+                                fontSize: 14,
                               ),
                               overflow: TextOverflow.ellipsis,
                               textAlign: TextAlign.end,
