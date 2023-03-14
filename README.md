@@ -1,2 +1,7 @@
-# ZenS_ApplicationASM_Submission
- my submission for ZenS Application Assignment
+# Interview Assignment Submission!!
+
+## Assignment role
+
+This is my submission in 2 required sections:
+- [Mobile](./mobile)
+- [Algorithm](./algorithm)
