@@ -7,6 +7,7 @@ class Info extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
+        // Nametag goes here !!!
         Column(
           crossAxisAlignment: CrossAxisAlignment.end,
           children: const [
@@ -28,6 +29,7 @@ class Info extends StatelessWidget {
             ),
           ],
         ),
+        // Avatar goes here !!!
         Container(
           margin: const EdgeInsets.only(left: 5.0),
           height: 40,

@@ -42,6 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      // AppBar
       appBar: AppBar(
         elevation: 0,
         title: Row(
@@ -52,6 +53,8 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
+
+      //Application Body
       body: SingleChildScrollView(
         child: Column(
           children: <Widget>[
@@ -63,6 +66,8 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
+
+      // Disclaimer & Copyright
       bottomNavigationBar: SizedBox(
         height: MediaQuery.of(context).size.height / 6,
         child: BottomSection(curr: widget.curr),
