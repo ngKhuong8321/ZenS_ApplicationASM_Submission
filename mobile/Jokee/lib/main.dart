@@ -1,7 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:joke/disclaimer.dart';
+import 'package:joke/bottom_section.dart';
 import 'package:joke/header.dart';
 import 'package:joke/info_appbar.dart';
 import 'package:joke/joke_container.dart';
@@ -60,11 +60,12 @@ class _MyHomePageState extends State<MyHomePage> {
 
             /// Joke Section
             JokeContainer(curr: widget.curr),
-
-            /// Disclaimer
-            Disclaimer(),
           ],
         ),
+      ),
+      bottomNavigationBar: SizedBox(
+        height: MediaQuery.of(context).size.height / 6,
+        child: BottomSection(curr: widget.curr),
       ),
     );
   }

@@ -13,17 +13,17 @@ class Info extends StatelessWidget {
             Text(
               'Handicrafted by',
               style: TextStyle(
-                color: Colors.black,
-                fontSize: 12,
+                color: Colors.grey,
+                fontSize: 10,
                 fontWeight: FontWeight.w100,
               ),
             ),
             Text(
-              'Nguyen Khuong',
+              'Jim HLS',
               style: TextStyle(
                 color: Colors.black,
-                fontSize: 12,
-                fontWeight: FontWeight.w600,
+                fontSize: 10,
+                fontWeight: FontWeight.w500,
               ),
             ),
           ],
@@ -33,7 +33,7 @@ class Info extends StatelessWidget {
           height: 40,
           width: 40,
           child: ClipOval(
-            child: Image.asset('img/ava.jpg', fit: BoxFit.cover),
+            child: Image.asset('img/ava.png', fit: BoxFit.cover),
           ),
         ),
       ],
